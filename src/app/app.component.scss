@@ -1,0 +1,37 @@
+section {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.section2 {
+  display: flex;
+  flex-flow: row nowrap;
+
+  & > img {
+    width: 50%;
+  }
+}
+
+.section3 {
+  & > img {
+    width: 50%;
+  }
+}
+
+.section4 {
+  & > img {
+    width: 50%;
+  }
+}
+
+.section5 {
+  & > img {
+    width: 50%;
+  }
+}
+
+.section6 {
+  & > img {
+    width: 50%;
+  }
+}
