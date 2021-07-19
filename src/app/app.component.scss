@@ -35,3 +35,9 @@ section {
     width: 50%;
   }
 }
+
+.section7 {
+  & > picture img {
+    width: 50%;
+  }
+}
