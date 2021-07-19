@@ -38,6 +38,18 @@ section {
 
 .section7 {
   & > picture img {
+    width: 100%;
+  }
+}
+
+.section8 {
+  & > picture img {
     width: 50%;
+  }
+}
+
+.section9 {
+  & > picture img {
+    width: 100%;
   }
 }

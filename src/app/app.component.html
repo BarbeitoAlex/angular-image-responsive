@@ -147,10 +147,30 @@
 
   <section class="section7">
     <picture>
+      <source media="(max-width: 400px)" [srcset]="400 | imageUrl" />
+      <source media="(max-width: 600px)" [srcset]="600 | imageUrl" />
+      <source media="(max-width: 800px)" [srcset]="800 | imageUrl" />
+      <source media="(max-width: 1400px)" [srcset]="1400 | imageUrl" />
+      <img [src]="2000 | imageUrl" />
+    </picture>
+  </section>
+
+  <section class="section8">
+    <picture>
       <source media="(max-width: 800px)" [srcset]="400 | imageUrl" />
       <source media="(max-width: 1200px)" [srcset]="600 | imageUrl" />
       <source media="(max-width: 1600px)" [srcset]="800 | imageUrl" />
       <source media="(max-width: 2800px)" [srcset]="1400 | imageUrl" />
+      <img [src]="2000 | imageUrl" />
+    </picture>
+  </section>
+
+  <section class="section9">
+    <picture>
+      <source media="(max-width: 600px)" [srcset]="400 | imageUrl" />
+      <source media="(max-width: 800px)" [srcset]="600 | imageUrl" />
+      <source media="(max-width: 1400px)" [srcset]="800 | imageUrl" />
+      <source media="(max-width: 2000px)" [srcset]="1400 | imageUrl" />
       <img [src]="2000 | imageUrl" />
     </picture>
   </section>
